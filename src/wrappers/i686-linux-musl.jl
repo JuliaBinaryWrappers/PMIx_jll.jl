@@ -21,4 +21,6 @@ function __init__()
     )
 
     JLLWrappers.@generate_init_footer()
+    ENV["PMIX_PREFIX"] = artifact_dir
+
 end  # __init__()
