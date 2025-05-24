@@ -1,61 +1,86 @@
 [[PMIx]]
 arch = "aarch64"
-git-tree-sha1 = "e3bf714137cdb1d35f521c87af09d1ae1f888d21"
+git-tree-sha1 = "121960a524b3be746ab68c0ceba25b4773b631c9"
 os = "macos"
 
     [[PMIx.download]]
-    sha256 = "7d1c9e829a4872de3a81fd3a1958a2c6d3b0f5982798e8b72ce89387685c19e5"
-    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v5.0.3+0/PMIx.v5.0.3.aarch64-apple-darwin.tar.gz"
+    sha256 = "0f94c95947bda17bcea1564f1d60b5ff82369a2ef78461b98cc90015f6f60d9f"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.aarch64-apple-darwin.tar.gz"
 [[PMIx]]
 arch = "aarch64"
-git-tree-sha1 = "af55ef7870b0ee8f82b15004ed7a6d2dd8b854e5"
+git-tree-sha1 = "65c707760f2ae08ed95f4877dd10e36be09d6bac"
 libc = "glibc"
 os = "linux"
 
     [[PMIx.download]]
-    sha256 = "042aeb1b6d1c03eb933d42f29791b228b5c14a676af4686e936185de4e2b101f"
-    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v5.0.3+0/PMIx.v5.0.3.aarch64-linux-gnu.tar.gz"
+    sha256 = "1644b522c27932af7aa95dd23160481592ebc28ba2ed3e1ec1832ae1158a0257"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.aarch64-linux-gnu.tar.gz"
 [[PMIx]]
 arch = "aarch64"
-git-tree-sha1 = "81318369c94293e1efd67f0e6e28142457d02661"
+git-tree-sha1 = "f556ace3fa981f8d6cd6ac8b04cddb95b5406e2c"
 libc = "musl"
 os = "linux"
 
     [[PMIx.download]]
-    sha256 = "0c1c36d5d6adbf4736d3ccf852c3ef0a5132f6927289cd675833c5fe52126782"
-    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v5.0.3+0/PMIx.v5.0.3.aarch64-linux-musl.tar.gz"
+    sha256 = "e120f7bbfeb726cbd431a45a3ae5a7b749d47bd3674de934907427fc7827fea1"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.aarch64-linux-musl.tar.gz"
+[[PMIx]]
+arch = "aarch64"
+git-tree-sha1 = "4cd309238279a1fe934ab679f886cef1f00d3227"
+os = "freebsd"
+
+    [[PMIx.download]]
+    sha256 = "ad5121bba9f47e13e2b040a7785e00dada74a5267bd5295c44259bb114d38b4a"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.aarch64-unknown-freebsd.tar.gz"
 [[PMIx]]
 arch = "powerpc64le"
-git-tree-sha1 = "c2285c1c3a9d8b4c82f43c7b69b06e6cd2435a95"
+git-tree-sha1 = "f8ca41de535a196577c776e89955cfad286d9a65"
 libc = "glibc"
 os = "linux"
 
     [[PMIx.download]]
-    sha256 = "edee24746dfefefad92625e930d58b647269780cd3df048711b0d2233a5dbbfb"
-    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v5.0.3+0/PMIx.v5.0.3.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "f6cb8228603c2531dc02f277dfee52fa6b7a6cc8809178b1035686349c32c11b"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.powerpc64le-linux-gnu.tar.gz"
+[[PMIx]]
+arch = "riscv64"
+git-tree-sha1 = "5b5f1314d40d94b9b17392de2d24af2180434a68"
+libc = "glibc"
+os = "linux"
+
+    [[PMIx.download]]
+    sha256 = "6e903099359af6373ab47d9b89deb69ffaf33e5f182929f79b08ac4d9b6e72b4"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.riscv64-linux-gnu.tar.gz"
 [[PMIx]]
 arch = "x86_64"
-git-tree-sha1 = "bc0ce062baa836341270ff749756cc6dce2e68e5"
+git-tree-sha1 = "66587563074dddf7367611aaf234d03ca9a80ffd"
 os = "macos"
 
     [[PMIx.download]]
-    sha256 = "76fa885c95972a3fbf17d6940aa659c7213d74f3e94d1641884934a055aafff9"
-    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v5.0.3+0/PMIx.v5.0.3.x86_64-apple-darwin.tar.gz"
+    sha256 = "9636c4a3ea1e768c7e38b850a708895f84439756e4a5ea17c8a670c4098a2f7d"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.x86_64-apple-darwin.tar.gz"
 [[PMIx]]
 arch = "x86_64"
-git-tree-sha1 = "dd08c1378e132c59b9d1e08988f3db39cbb0567c"
+git-tree-sha1 = "3d0990cbe80f9128ed25ca183f3ee95f71f54bdb"
 libc = "glibc"
 os = "linux"
 
     [[PMIx.download]]
-    sha256 = "0e0c89de96d153e1b40eef202189c6283b7c763fd541a29682894e293ed4394e"
-    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v5.0.3+0/PMIx.v5.0.3.x86_64-linux-gnu.tar.gz"
+    sha256 = "91c8ab9d3240348d249e38d90a5aec10c2dc3a32a1ee9e429e23d28f0bebd701"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.x86_64-linux-gnu.tar.gz"
 [[PMIx]]
 arch = "x86_64"
-git-tree-sha1 = "ade90ca7a1e0fa430a482983a36e667cc4e40153"
+git-tree-sha1 = "5411a030bbd9b3d51ddd001f4bb5fcd620e11a91"
 libc = "musl"
 os = "linux"
 
     [[PMIx.download]]
-    sha256 = "41de46ace994a41274600761922bb0f02cc40b107e3640afb1281f1fdddba2ce"
-    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v5.0.3+0/PMIx.v5.0.3.x86_64-linux-musl.tar.gz"
+    sha256 = "0d030e7e7b5097bfa6b16f19de85f8bf17ee9c422e061383829d4b1d9e3185b4"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.x86_64-linux-musl.tar.gz"
+[[PMIx]]
+arch = "x86_64"
+git-tree-sha1 = "2a7b46a8db5a914dbb9a070b2e0aba0bf473d975"
+os = "freebsd"
+
+    [[PMIx.download]]
+    sha256 = "218bf900c8ef6b9c7e09cf0da0cbc7bb938a4dc5231275feea849c007a12f9e5"
+    url = "https://github.com/JuliaBinaryWrappers/PMIx_jll.jl/releases/download/PMIx-v6.0.0+0/PMIx.v6.0.0.x86_64-unknown-freebsd.tar.gz"
